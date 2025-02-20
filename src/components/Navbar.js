@@ -17,7 +17,7 @@ const Navbar = () => {
             className="nav-icon"
             onClick={() => scrollToSection("hero-section")}
           >
-            <i className="bi bi-house-fill"></i>
+            <img src={process.env.PUBLIC_URL + "/favicon.ico"} alt="" />
           </button>
         </li>
         <li className="my-3">
