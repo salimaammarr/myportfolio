@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://salimaammarr.github.io/myportfolio",
+  "homepage": "http://salimaammar.io/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
