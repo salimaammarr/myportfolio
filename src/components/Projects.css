@@ -52,3 +52,7 @@
   font-size: 1.2rem;
   color: var(--cherry-blossom-pink);
 }
+.project-title {
+  color: var(--slithly-dark-cherry-blossom-pink);
+  font-size: 1.8rem;
+}

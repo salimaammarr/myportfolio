@@ -17,23 +17,46 @@ const Projects = () => {
   const projects = [
     {
       title: "AI Medical Chatbot",
+      description:
+        "A medical chatbot that uses AI to provide medical advice and information.",
       repoLink: "https://github.com/salimaammarr/AI-Medical-Chatbot",
       tech: ["Docker", "AWS", "Python", "Flask"],
     },
     {
       title: "Arithmetic Calculator",
+      description: "A simple arithmetic calculator.",
       repoLink: "https://github.com/salimaammarr/Arithmetic-Calculator",
       tech: ["Java"],
     },
     {
       title: "Packing List",
+      description: "A simple packing list app.",
       repoLink: "https://github.com/salimaammarr/Packing-List",
       tech: ["React"],
     },
     {
       title: "Pets Adoption Website",
+      description: "A website for adopting pets.",
       repoLink: "https://github.com/salimaammarr/TinPets",
       tech: ["Node.js", "CSS", "JavaScript", "EJS"],
+    },
+    {
+      title: "Cities Database",
+      description: "A database of cities.",
+      repoLink: "https://github.com/salimaammarr/Cities-Database",
+      tech: ["Clojure"],
+    },
+    {
+      title: "Cellular Network Coverage",
+      description: "A cellular network coverage app.",
+      repoLink: "https://github.com/salimaammarr/Cellular-Network-Coverage",
+      tech: ["Python"],
+    },
+    {
+      title: "Snake Game",
+      description: "Just a snake game.",
+      repoLink: "https://github.com/salimaammarr/SnakeGame",
+      tech: ["Python"],
     },
   ];
 
@@ -54,6 +77,7 @@ const Projects = () => {
               className="project-box"
             >
               <div className="project-title">{p.title}</div>
+              <div className="project-description">{p.description}</div>
               <div className="tech-icons">
                 {p.tech &&
                   p.tech.map((techItem, idx) => (
