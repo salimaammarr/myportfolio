@@ -8,12 +8,11 @@ const Hero = () => {
       className="snap-slide hero d-flex align-items-center justify-content-center"
     >
       <div className="hero-content">
-        {/* Header Div */}
         <div className="hero-header">
           <h1 className="pixel-font hero-name">SALIMA AMMAR</h1>
           <p className="hero-axiom">Aspiring Software Engineer & Innovator</p>
         </div>
-        {/* Description Div */}
+
         <div className="hero-description">
           <p className="hero-bio">
             Hi, I’m a passionate software engineering student interested in app
@@ -30,7 +29,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="hero-social">
+
+      <div className="social-icons">
         <a
           href="https://github.com/salimaammarr"
           target="_blank"
@@ -41,24 +41,6 @@ const Hero = () => {
         </a>
         <a
           href="https://linkedin.com/in/salima-ammar"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-        >
-          <i className="bi bi-linkedin"></i>
-        </a>
-      </div>
-      <div className="social-icons">
-        <a
-          href="https://github.com/YOUR_GITHUB_USERNAME"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-          <i className="bi bi-github"></i>
-        </a>
-        <a
-          href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
