@@ -1,0 +1,27 @@
+.experience {
+  background-color: var(--light-lavender);
+  position: relative;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
+  gap: 1rem;
+}
+
+.experience-box {
+  background-color: #fff;
+  color: #333;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto; /* adjust to content size */
+  height: auto; /* adjust to content size */
+  margin: 1rem;
+  font-family: "VT323", monospace;
+}
+
+.experience-box h5 {
+  font-weight: 700;
+}

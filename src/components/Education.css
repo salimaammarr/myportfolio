@@ -1,0 +1,32 @@
+/* client/src/components/Projects.css */
+.projects {
+  padding: 4rem;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+  color: #333;
+}
+
+.projects h1 {
+  font-size: 2.5rem;
+  color: #6a0dad;
+  text-align: center;
+}
+
+.project-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-item {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.project-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
