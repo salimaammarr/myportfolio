@@ -23,6 +23,14 @@ const Navbar = () => {
         <li className="my-3">
           <button
             className="nav-text"
+            onClick={() => scrollToSection("about-section")}
+          >
+            More about me
+          </button>
+        </li>
+        <li className="my-3">
+          <button
+            className="nav-text"
             onClick={() => scrollToSection("projects-section")}
           >
             Projects

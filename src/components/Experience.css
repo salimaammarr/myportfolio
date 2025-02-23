@@ -1,6 +1,7 @@
 .experience {
   background-color: var(--light-lavender);
   position: relative;
+  padding: 0rem 12rem;
 }
 
 .experience-grid {

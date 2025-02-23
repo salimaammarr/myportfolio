@@ -5,7 +5,7 @@ import "./Experience.css";
 const Experience = () => {
   const experiences = [
     {
-      role: "Intern - New Products Development (PLM)",
+      role: "Software Engineering Intern - New Products Development (PLM)",
       company: "Bombardier Inc.",
       duration: "September 2024 – Present",
       location: "Montreal, Canada",

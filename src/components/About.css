@@ -1,59 +1,57 @@
-.projects {
-  background-color: var(--cherry-blossom-pink);
+.about {
+  background-color: #fff;
   position: relative;
   padding: 0rem 12rem;
 }
 
-.projects-grid {
+.about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
-.project-box {
+.about-box {
   font-family: "VT323", monospace;
   font-size: 1.3rem;
   background-color: transparent;
-  border: 3px solid #fff;
+  border: 3px solid var(--cherry-blossom-pink);
   border-radius: 6px;
   padding: 1rem;
   text-align: center;
   transition: transform 0.2s;
   text-decoration: none;
-  color: #fff;
+  color: var(--cherry-blossom-pink);
   width: auto;
   height: auto;
   display: inline-block;
 }
 
-.project-box:hover {
+.about-box:hover {
   transform: translateY(-5px);
   background-color: var(--accent-pink);
 }
-.tech-icons {
-  margin-top: 0.5rem;
+.about-icons {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
 }
 
-.tech-icon {
+.about-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin: 0.2rem;
   background: none;
   border: none;
-  color: #fff;
+  color: var(--cherry-blossom-pink);
 }
 
-.tech-icon i {
-  font-size: 1.2rem;
-  color: #fff;
+.about-icon i {
+  font-size: 5rem;
+  color: var(--cherry-blossom-pink);
 }
-.project-title {
-  color: #fff;
-  font-size: 1.8rem;
+.about-title {
+  color: var(--slithly-dark-cherry-blossom-pink);
+  font-size: 1.4rem;
 }
