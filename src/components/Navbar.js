@@ -45,7 +45,11 @@ const Navbar = () => {
           </button>
         </li>
         <li className="my-3">
-          <a href="/Salima_Ammar.pdf" download className="nav-text resume-link">
+          <a
+            href={process.env.PUBLIC_URL + "/SalimaAmmar_resume.pdf"}
+            download
+            className="nav-text resume-link"
+          >
             Resume
           </a>
         </li>
