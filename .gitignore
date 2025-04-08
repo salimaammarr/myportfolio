@@ -35,10 +35,10 @@ build
 .env.production.local
 
 # Editor directories and files
+.idea
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+*.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
@@ -52,3 +52,54 @@ build
 .tmpdir
 .vercel
 .netlify
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Local config files
+.eslintrc.local.js
+.prettierrc.local
+tsconfig.local.json
+vite.config.local.ts
+*.local.config.js
+*.local.config.ts
+
+# IDE specific configs
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/usage.statistics.xml
+.idea/dynamic.xml
+.idea/jsLibraryMappings.xml
+
+# Build tool configs
+.rollup.cache
+.webpack.cache
+.parcel-cache
