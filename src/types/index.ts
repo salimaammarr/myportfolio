@@ -18,6 +18,7 @@ export interface Experience {
   company: string;
   period: string;
   description: string;
+  highlights?: string[];
 }
 
 export type Theme = "light" | "dark";

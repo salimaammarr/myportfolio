@@ -10,17 +10,18 @@ coverage/
 build/
 dist/
 
-# Config files
-eslint.config.js
-package.json
-package-lock.json
-postcss.config.js
-tailwind.config.js
-tsconfig.app.json
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
-src/vite-env.d.ts
+# Config files - Don't ignore these, they're needed for the project
+# eslint.config.js
+# package.json
+# package-lock.json
+# postcss.config.js
+# tailwind.config.js
+# tsconfig.app.json
+# tsconfig.json
+# tsconfig.node.json
+# vite.config.ts
+# src/vite-env.d.ts
+setup.sh
 
 # Dependencies
 /node_modules

@@ -27,7 +27,7 @@ function AppContent() {
 
       <Navbar activeSection={activeSection} />
 
-      <div className="h-screen overflow-y-auto snap-y snap-mandatory">
+      <div className="h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
         <Home />
         <Experience sectionRef={refs.experienceRef} />
         <Projects sectionRef={refs.projectsRef} />
